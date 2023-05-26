@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i" rel="stylesheet">
+    <title>Arekh Shrestha</title>
+    <link href="lg.png" rel="icon">
+    <meta property="og:title" content="Arekh Shrestha">
+    <meta property="og:description" content="Portfolio Website">
+    <meta property="og:image" content="soc.png">
+    <meta property="og:url" content="https://arekhshrestha.com.np">
+    <meta property="og:url" content="arekhshrestha.com.np">
+    <meta property="twitter:card" content="summary_large_image">
+  </head>
+  <body>
+    <header class="head">
+      <a class="logo">sthaarekh</a>
+      <nav class="navbar">
+        <a style="--i: 11" class="active">Hello World!</a>
+        <!-- <a href="#" style="--i:12">About</a>
+        <a href="#" style="--i:13">Skills</a>
+        <a href="#" style="--i:14">Portfolio</a>
+        <a href="#" style="--i:15">Contact</a> -->
+      </nav>
+
+      <div class="toggle">
+        <i class="bx bx-moon toggle-icon"></i>
+      </div>
+    </header>
+    <section class="home">
+      <div class="home-content">
+        <h3>Hello, I am</h3>
+        <h1>Arekh Shrestha</h1>
+        <p>
+          I am  <b>a programmer</b> with a passion for building clean and efficient
+          software solutions, <b>a designer</b> who creates visually stunning
+          user-centered designs, <b>a photographer</b> who captures compelling moments,
+          and a knowledgeable and I am also <b>an avid student</b> who is constantly
+          expanding my skills.
+        </p>
+        <div class="links">
+          <a href="https://facebook.com/sthaarekh" style="--i: 7" target="_blank"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://instagram.com/sthaarekh" style="--i: 8" target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://twitter.com/sthaarekh" style="--i: 9" target="_blank"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/@sthaarekh" target="_blank"
+            style="--i: 10"
+            ><i class="bx bxl-youtube"></i
+          ></a>
+        </div>
+        <a href="" class="btn">Download CV</a>
+      </div>
+
+      <div class="prof-cont">
+        <div class="prof-box" style="--i: 0">
+          <div class="prof">
+            <i class="bx bx-palette"></i>
+            <h3>Designer</h3>
+          </div>
+          <div class="prof" style="--i: 1">
+            <i class="bx bx-code-alt"></i>
+            <h3>Coder</h3>
+          </div>
+          <div class="prof" style="--i: 2">
+            <i class="bx bx-camera"></i>
+            <h3>Photographer</h3>
+          </div>
+          <div class="prof" style="--i: 3">
+            <i class="bx bx-book-reader"></i>
+            <h3>Student</h3>
+          </div>
+
+          <div class="circle"></div>
+        </div>
+        <div class="overlay"></div>
+        <div class="home-img">
+          <img src="h1.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <script>
+      const toggleIcon = document.querySelector(".toggle-icon");
+      toggleIcon.addEventListener("click", () => {
+        toggleIcon.classList.toggle("bx-sun");
+        document.body.classList.toggle("dark-mode");
+      });
+    </script>
+  </body>
+</html>
